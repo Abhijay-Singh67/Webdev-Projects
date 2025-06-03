@@ -114,7 +114,7 @@ body{
     flex-shrink: 1;
     flex-grow: 1;
     max-width: 450px;
-    min-width: 300px;
+    min-width: 200px;
     height: 50px;
     border-radius: 4px;
     position: relative;
@@ -125,10 +125,12 @@ body{
     padding-left: 15px;
 }
 .headerContainer .headerMiddle .container .emailBar .emailInput button{
-    width: 220px;
+    max-width: 220px;
+    min-width: 120px;
     height: 52px;
     position: relative;
     z-index: 1;
+    flex-shrink: 1;
     background-color: #E50914;
     color: #F3F3F3;
     border-radius: 4px;
@@ -144,7 +146,7 @@ body{
     height: 7px;
 }
 main{
-    padding: 10vh 19vw;
+    padding: 10vh 17vw;
 }
 main .top-main h1{
     color: white;
@@ -169,34 +171,34 @@ main .top-main .scrollbar .box{
     position: relative;
 }
 main .top-main .scrollbar .box1{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYGL4_ns5MGTE5-Yd3ZQVB5apyY9yxQ39lxjT_27ehdoGzrxRwNc4osgXEeifcv9yO_MgMySL-p6hMxtQZnIEkZmyglIJ7wm7ik.webp?r=c23");
+    background-image: url("Assets/Images/1.webp");
 }
 main .top-main .scrollbar .box2{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABWtQdcUd4n6VKz6HTm_IbI2cOq0VDU7fDQpomIXBLuCYqtJ4j8hj2pz7j6spnX2osjRgTMJQ9xkMieYZWqC6xC8G4tGlTLJBm3I.webp?r=cc2");
+    background-image: url("Assets/Images/2.webp");
 }
 main .top-main .scrollbar .box3{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABYVcRfFB91jy3f8-_Alb6H4RUzqXFRA7ejjOfCOXF20XLRVeCyT3ZFEimKbZAimt2ayVUWXSnp6ApNxpoK0mA3XzJD__irrDkdMD6lDrOFPSvQqP8s0xn2dNBaU9JxIu4lUd.webp?r=63b");
+    background-image: url("Assets/Images/3.webp");
 }
 main .top-main .scrollbar .box4{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZFBdXweIqorvQIPkQbuKg9rFcZJJ8yCUzSX1ySYOsmrcMeUgLlY3YWvFcXee7lFjHwMT_Ofd03ttH-rTzAHPZskA6K-f4imBAY.webp?r=81d");
+    background-image: url("Assets/Images/4.webp");
 }
 main .top-main .scrollbar .box5{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQqOh2yhpKE8385dV9hjlxxXtG63RjSjrlNOkx2yLuGMYe8JFTnA9ScVsioAhTa9Ds34ERhB2R4aBFUng1j54IFwl5JvjgVmGEU.webp?r=d66&");
+    background-image: url("Assets/Images/5.webp");
 }
 main .top-main .scrollbar .box6{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABUbEuw4gn448vhUbeTgwsmEsA4ZhBFHAbPyFyAk414jH72BDs0ALdA2TEDez1mRZHuyUjlpB_EL0LxkrymlRyHs2joUg2Izzl4Q.webp?r=ad2");
+    background-image: url("Assets/Images/6.webp");
 }
 main .top-main .scrollbar .box7{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABf4wStrKekb1hEKRFD141eOa8rGZTWJK1QxVF2zxvJDivIDqQMNDUmh_d33HVtAxToXkZlAeLEzdhxPXCskBuNsi4X_wSv2Brzk.webp?r=7de");
+    background-image: url("Assets/Images/7.webp");
 }
 main .top-main .scrollbar .box8{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABcBQAzZgCcAJyLKGf0x3EjJHKr1h1oCRUQDfVspaHXampP-RjiOkIRlWBz7ViFOvUI1EdPSRcxoOPmB7paPLi52W4OmQZJ4NDMQ.webp?r=a92");
+    background-image: url("Assets/Images/8.webp");
 }
 main .top-main .scrollbar .box9{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABZyM5lscAxvN0zIAK7uJHgaiKFhWnylqJ75bsgqxuwyGmkZqgXmjPOdkp-zSIHOZ7Ofu7n2toTy7CxdwCqwmkySxVFv-senKyDU.webp?r=133");
+    background-image: url("Assets/Images/9.webp");
 }
 main .top-main .scrollbar .box10{
-    background-image: url("https://occ-0-6246-2164.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABa2fSipl5PZ4Yp1Zg-jbdAUQiRU5X9KqEG3w_6Z21aphltfxA4PNYA98JIJtUmACk8DQJq7BeHJJeFjXQ7aiCxtmvRY98kBzRjJW_C9i6gjz_NJ3pnL1CQuIJpNAdZ71NgRV.webp?r=4c4");
+    background-image: url("Assets/Images/10.webp");
 }
 main .top-main .scrollbar .box1::before{
     content: "1";
@@ -356,6 +358,7 @@ main .top-end h1{
 main .top-end .questions{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 7px;
 }
 main .top-end .questions .question{
@@ -367,6 +370,7 @@ main .top-end .questions .question{
     font-size: 18px;
     height: 100px;
     cursor: pointer;
+    width: 62vw;
     & img{
         width: 30px;
         height: 30px;
@@ -395,8 +399,43 @@ main .contain .endMessage{
     display: flex;
     justify-content: space-between;
 }
-@media only screen and (max-width: 455px){
+@media only screen and (max-width: 1300px){
     .headerContainer .headerMiddle .container .content .big{
         font-size: 40px;
+    }
+    .headerContainer .headerMiddle .container .content .small{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .headerContainer .headerMiddle{
+        margin-top: 150px;
+    }
+    .headerContainer .headerMiddle .container .emailBar p{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .headerContainer .headerMiddle .container .emailBar .emailInput button{
+        font-size: 15px;
+    }
+    .headerContainer nav .headerButtons .englishButton{
+        font-size: 12px;
+        width: 70px;
+    }
+    .headerContainer nav .headerButtons .signInButton{
+        font-size: 12px;
+        width: 50px;
+    }
+    main .top-end .questions .question{
+        font-size: 12px;
+        & img{
+            width: 10px;
+            height: 10px;
+        }
+    }
+    main .contain .links{
+        grid-template-columns: 1fr 1fr;
+    }
+    main .contain{
+        margin-top: 400px;
     }
 }
