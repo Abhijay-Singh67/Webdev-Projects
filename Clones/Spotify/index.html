@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/utility.css">
+    <link rel="icon" href="/favicon.ico">
+</head>
+<body>
+    <div class="searchBar">
+        <div class="bar">
+            <input type="text" placeholder="Search for Music">
+            <img src="/Assets/Images/search.svg" width="25px">
+        </div>
+    </div>
+    <nav class="flex">
+        <div class="left flex">
+            <img src="/Assets/Images/hamburger.svg" height="30vw" id="hamburger" class="pointer hamburger">
+            <img src="/Assets/Images/logo.svg" width="50px">
+        </div>
+        <div class="middle flex">
+            <img src="/Assets/Images/home.svg" width="25px" class="pointer">
+            <div class="search">
+                <img src="/Assets/Images/search.svg" width="25px" id="searchButton">
+                <input type="text" placeholder="What do you want to play?">
+                <img src="/Assets/Images/browse.svg" width="25px" class="browse">
+            </div>
+        </div>
+        <div class="right flex align">
+            <img src="/Assets/Images/notification.svg" width="20px" class="pointer">
+        </div>
+    </nav>
+    <main class="flex">
+        <div class="left">
+            <div class="top flex">
+                <h4>Your Library</h4>
+                <div class="create">
+                    Create
+                </div>
+            </div>
+            <div class="songList">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <h1>Playlists</h1>
+            <div class="cardContainer flex">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="playbar">
+            <div class="songInfo">
+                
+            </div>
+            <div class="music">
+                <div class="controls">
+                    <div class="previous pointer">
+                        <img src="/Assets/Images/previous.svg" id="previous">
+                    </div>
+                    <div class="play pointer">
+                        <img src="/Assets/Images/play.svg" id="play">
+                    </div>
+                    <div class="next pointer">
+                        <img src="/Assets/Images/next.svg" id="next">
+                    </div>
+                </div>
+                <div class="seekBar pointer">
+                    <div class="trail">
+                    </div>
+                    <div class="circle">
+                    </div>
+                </div>
+            </div>
+            <div class="footerRight">
+                <div class="volume">
+                    <img src="/Assets/Images/Volume/eighty.svg" id="volumeButton">
+                    <input type="range" id="volumeBar" min="0" max="100" value="100">
+                </div>
+                <div class="songTime">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+</html>
