@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react"
 import Navbar from "./components/Navbar"
 import Todo from "./components/Todo"
+import Footer from "./components/Footer";
 import { v4 as uuidv4 } from 'uuid';
 
 function App() {
@@ -85,7 +86,7 @@ function App() {
     <>
       <Navbar />
       <main>
-        <div className="container  mx-auto my-5 w-[50vw] flex flex-col space-y-7 p-10 h-[80vh] rounded-2xl bg-[#E3E9FF] overflow-auto no-scrollbar">
+        <div className="container  mx-auto my-5 md:w-[50vw] flex flex-col space-y-7 p-10 h-[80vh] rounded-2xl bg-[#E3E9FF] overflow-auto no-scrollbar">
           <h1 className="text-3xl font-bold text-center">iTask - Manage your todos at one place</h1>
           <h1 className="text-2xl font-bold">Add a Todo</h1>
           <div className="input flex justify-between space-x-5">
@@ -110,6 +111,7 @@ function App() {
           </div>
         </div>
       </main>
+      <Footer/>
     </>
   )
 }

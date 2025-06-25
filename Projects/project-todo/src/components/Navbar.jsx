@@ -9,10 +9,10 @@ const Navbar = () => {
                 <h1>iTask</h1>
             </div>
             <div className="middle">
-                <h1>Day</h1>
-                <h1>Week</h1>
-                <h1>Month</h1>
-                <h1>Year</h1>
+                <h1 className='hidden md:text-xl md:block'>Day</h1>
+                <h1 className='hidden md:text-xl md:block'>Week</h1>
+                <h1 className='hidden md:text-xl md:block'>Month</h1>
+                <h1 className='hidden md:text-xl md:block'>Year</h1>
             </div>
             <h1>Contact Us</h1>
         </nav>
